@@ -18,13 +18,10 @@
 #max
 #min
 
-
 def uso_de(metodo: str):
     mensaje = " USO DE " + metodo.upper()+" "
     print(mensaje.center(50,"-"))
     
-
-
 if __name__ == '__main__':
     
     hola = "bienvenido"
