@@ -21,13 +21,11 @@ def plotear_punto(x,y,fig,axes):
 # Crear un intervalo de valores 'x' de -100 a 100
 x = np.linspace(-100,100,201)
 
-
 # Obtener los valores 'y' correspondientes de la función
 y = [g(i) for i in x]
 
 # Configurar el gráfico
 def configurar(fig,axes):
-
     axes.set_title('FUNCION ALGEBRAICA Y GRAFICA')
     axes.set_xlabel('X')
     axes.set_ylabel('Y')
@@ -36,6 +34,7 @@ def configurar(fig,axes):
 # Graficar 'x' contra g(x)
 fig,axes = plotear(x,y)
 configurar(fig,axes)
+
 # Plotea un círculo vacío para mostrar el punto indefinido
 plotear_punto(0,40,fig,axes)
 

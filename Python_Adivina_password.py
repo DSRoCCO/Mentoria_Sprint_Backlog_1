@@ -17,9 +17,6 @@ def password():
             menssage = "Only have left " + str(intentos)
         print(menssage)
 
-
-
-
 if __name__ == '__main__':
     password()
 

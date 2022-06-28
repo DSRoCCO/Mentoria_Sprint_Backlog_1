@@ -36,7 +36,6 @@ def numbers_to_ranges(speed):
     func = switch_example(speed, ranges)
     return func
 
-
 if __name__ == '__main__':
     #driver code
 
