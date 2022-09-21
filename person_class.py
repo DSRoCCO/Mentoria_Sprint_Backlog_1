@@ -1,20 +1,14 @@
-"""Person Class"""
-
+"""this test must not be modified"""
 class Person:
-    def __init__(self):
-        pass
-
-    def set_name(self, name):
-        self.name = name
-
-    def set_job(self, job):
-        self.job = job
+    def __init__(self, name = 'Robertina', job = 'Teacher'):
+        self. name = name
+        self. job = job
 
 """driver code"""
 if __name__=="__main__":
-    charly = Person()
-    charly.set_name('Charly')
-    charly.set_job('Dev')
-
-    print(charly.name == 'Charly')
-    print(charly.job == 'Dev')
+    someone = Person()
+    print(someone.name == 'Robertina')
+    print(someone.job == 'Teacher')
+    print('\n')
+    manager = Person(job = 'Manager')
+    print(manager.job == 'Manager')
